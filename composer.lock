@@ -4,8 +4,50 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e2b5e5594471a3da244841bf8f99d253",
+    "hash": "71a0a572033ef625ef676270e901a06d",
     "packages": [
+        {
+            "name": "bulforce/ext-direct",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Bulforce/laravel-ext-direct.git",
+                "reference": "43f04bbca35d6a13e817ab3d6ba3700fe13e0f2e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Bulforce/laravel-ext-direct/zipball/43f04bbca35d6a13e817ab3d6ba3700fe13e0f2e",
+                "reference": "43f04bbca35d6a13e817ab3d6ba3700fe13e0f2e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "4.2.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/migrations"
+                ],
+                "psr-0": {
+                    "Bulforce\\ExtDirect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "bulforce",
+                    "email": "bulforce@gmail.com"
+                }
+            ],
+            "description": "Laravel ExtJS/Sencha direct provider",
+            "keywords": [
+                "extdirect",
+                "extjs",
+                "laravel4"
+            ],
+            "time": "2014-10-07 21:22:09"
+        },
         {
             "name": "ckeditor/ckeditor",
             "version": "4.4.6",
@@ -1733,7 +1775,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "frozennode/administrator": 20
+        "frozennode/administrator": 20,
+        "bulforce/ext-direct": 20
     },
     "prefer-stable": false,
     "platform": [],
