@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'OGOM8PNkBs71ZDfLJ66HKWpJRp88ByrX',
+	'key' => 'H9WeYMwBPuN07WtJ8XRF19kmA41dYifi',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -121,9 +121,9 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-        'Bulforce\ExtDirect\ExtDirectServiceProvider',
+		'Bulforce\ExtDirect\ExtDirectServiceProvider',
 
-    ),
+	),
 
 	/*
 	|--------------------------------------------------------------------------
