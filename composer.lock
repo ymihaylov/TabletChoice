@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "71a0a572033ef625ef676270e901a06d",
+    "hash": "bd134a835671e6dc268da180de73e38d",
     "packages": [
         {
             "name": "bulforce/ext-direct",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Bulforce/laravel-ext-direct.git",
-                "reference": "43f04bbca35d6a13e817ab3d6ba3700fe13e0f2e"
+                "reference": "06e161e10b8f0b72a0c06f7e8caac36d0a477c88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Bulforce/laravel-ext-direct/zipball/43f04bbca35d6a13e817ab3d6ba3700fe13e0f2e",
-                "reference": "43f04bbca35d6a13e817ab3d6ba3700fe13e0f2e",
+                "url": "https://api.github.com/repos/Bulforce/laravel-ext-direct/zipball/06e161e10b8f0b72a0c06f7e8caac36d0a477c88",
+                "reference": "06e161e10b8f0b72a0c06f7e8caac36d0a477c88",
                 "shasum": ""
             },
             "require": {
@@ -46,48 +46,7 @@
                 "extjs",
                 "laravel4"
             ],
-            "time": "2014-10-07 21:22:09"
-        },
-        {
-            "name": "ckeditor/ckeditor",
-            "version": "4.4.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ckeditor/ckeditor-releases.git",
-                "reference": "1db73e67e94b13e86d935026dca139442d0224ef"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ckeditor/ckeditor-releases/zipball/1db73e67e94b13e86d935026dca139442d0224ef",
-                "reference": "1db73e67e94b13e86d935026dca139442d0224ef",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+",
-                "LGPL-2.1+",
-                "MPL-1.1+"
-            ],
-            "authors": [
-                {
-                    "name": "CKSource",
-                    "homepage": "http://cksource.com"
-                }
-            ],
-            "description": "JavaScript WYSIWYG web text editor.",
-            "homepage": "http://ckeditor.com",
-            "keywords": [
-                "CKEditor",
-                "editor",
-                "fckeditor",
-                "html",
-                "javascript",
-                "richtext",
-                "text",
-                "wysiwyg"
-            ],
-            "time": "2014-11-25 15:45:20"
+            "time": "2014-12-21 14:48:04"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -227,59 +186,6 @@
                 "zf2"
             ],
             "time": "2014-10-26 09:05:09"
-        },
-        {
-            "name": "frozennode/administrator",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FrozenNode/Laravel-Administrator.git",
-                "reference": "ae75e5ee066248bb9e65c99e436044821b227ce0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/FrozenNode/Laravel-Administrator/zipball/ae75e5ee066248bb9e65c99e436044821b227ce0",
-                "reference": "ae75e5ee066248bb9e65c99e436044821b227ce0",
-                "shasum": ""
-            },
-            "require": {
-                "ckeditor/ckeditor": "4.*",
-                "laravel/framework": "4.*",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "~0.9"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/controllers"
-                ],
-                "psr-0": {
-                    "Frozennode\\Administrator": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jan Hartigan",
-                    "email": "jan@frozennode.com"
-                }
-            ],
-            "description": "A database interface package for Laravel",
-            "homepage": "http://administrator.frozennode.com",
-            "keywords": [
-                "admin",
-                "administrator",
-                "cms",
-                "database",
-                "laravel",
-                "laravel-administrator"
-            ],
-            "time": "2014-11-17 03:31:59"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -1775,7 +1681,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "frozennode/administrator": 20,
         "bulforce/ext-direct": 20
     },
     "prefer-stable": false,
