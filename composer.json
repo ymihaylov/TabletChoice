@@ -8,6 +8,9 @@
 		"laravel/framework": "4.2.*",
 		"bulforce/ext-direct": "dev-master"
 	},
+	"require-dev": {
+    	"way/generators": "~2.0"
+	},
 	"autoload": {
 		"classmap": [
 			"app/commands",
