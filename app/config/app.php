@@ -122,6 +122,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Bulforce\ExtDirect\ExtDirectServiceProvider',
+		'Way\Generators\GeneratorsServiceProvider',
 
 	),
 
