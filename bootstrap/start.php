@@ -26,7 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('ymihaylov-Aspire-V5-473G', '*.local'),
+	'local' => array('ymihaylov-Aspire-V5-473G', 'Georgi-Laptop', '*.local'),
 
 ));
 
