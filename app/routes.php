@@ -17,5 +17,6 @@ Route::get('/', function()
 });
 
 Route::any('/rpc', function() {
+    \Bulforce\ExtDirect\ExtDirect::$url = $_SERVER['REQUEST_URI'] . 'rpc?javascript'; //fixes a bug
     return ExtDirect::provide();
 });
