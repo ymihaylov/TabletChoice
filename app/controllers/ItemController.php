@@ -2,16 +2,13 @@
 
 class ItemController extends \BaseController {
 
-	/**
-	 * Display a listing of the resource.
-	 *
-	 * @return Response
-	 */
+    /**
+     * @direct
+     */
 	public function index()
 	{
-		//
+        return Item::all();
 	}
-
 
 	/**
 	 * Show the form for creating a new resource.

@@ -6,10 +6,11 @@ class CategoryController extends \BaseController {
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
+     * @direct
 	 */
 	public function index()
 	{
-		//
+        return Category::all();
 	}
 
 
@@ -40,10 +41,11 @@ class CategoryController extends \BaseController {
 	 *
 	 * @param  int  $id
 	 * @return Response
+	 * @direct
 	 */
 	public function show($id)
 	{
-		//
+		return Item::where('category_id', '=', $id)->get(array('name', 'img_url', 'short_description', 'price'));
 	}
 
 

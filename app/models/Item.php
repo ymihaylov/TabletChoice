@@ -1,8 +1,8 @@
 <?php
-use Illuminate\Database\Eloquent\SoftDeletingTrait;
+//use Illuminate\Database\Eloquent\SoftDeletingTrait;
 
 class Item extends \Eloquent {
-	use SoftDeletingTrait;
+	//use SoftDeletingTrait;
 
     protected $dates = ['deleted_at'];
 
