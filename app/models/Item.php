@@ -12,4 +12,9 @@ class Item extends \Eloquent {
     {
         return $this->belongsTo('Category');
     }
+
+    public function comments()
+    {
+        return $this->hasMany('Item');
+    }
 }
