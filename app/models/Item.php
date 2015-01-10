@@ -6,7 +6,7 @@ class Item extends \Eloquent {
 
     protected $dates = ['deleted_at'];
 
-	protected $fillable = ['category_id', 'name', 'img_url', 'short_description', 'description', 'price', 'quantity', 'deleted_at'];
+	protected $fillable = ['category_id', 'name', 'img_url', 'short_description', 'description', 'price', 'quantity', 'positive_votes', 'negative_votes', 'deleted_at'];
 
 	public function category()
     {
