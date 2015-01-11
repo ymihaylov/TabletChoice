@@ -14,12 +14,12 @@ class AddPasswordAndRememberTokenToUsersTable extends Migration {
 	{
 		Schema::create('users', function(Blueprint $table)
 		{
-			$table->increments()
+			$table->increments('id');
 
 			$table->string('email');
 			$table->string('name');
-			$table->string('password')->after('name');
-			$table->string('remember_token')->after('password');
+			$table->string('password');
+			$table->string('remember_token');
 
 			$table->timestamps();
 		});
