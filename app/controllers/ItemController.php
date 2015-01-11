@@ -37,10 +37,11 @@ class ItemController extends \BaseController {
 	 *
 	 * @param  int  $id
 	 * @return Response
+	 * @direct
 	 */
 	public function show($id)
 	{
-		//
+		return Item::find($id);
 	}
 
 
