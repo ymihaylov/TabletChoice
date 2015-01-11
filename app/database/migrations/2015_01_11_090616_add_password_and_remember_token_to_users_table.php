@@ -14,7 +14,7 @@ class AddPasswordAndRememberTokenToUsersTable extends Migration {
 	{
 		Schema::create('users', function(Blueprint $table)
 		{
-			$table->increments()
+			$table->increments();
 
 			$table->string('email');
 			$table->string('name');
