@@ -16,12 +16,7 @@ return array(
 		'category' => array(
 			'title' => 'category',
 			'relationship' => 'category',
-			'select' => "CONCAT((:table).id, ', ', (:table).name)",
-			'output' => function($value) {
-				list($id, $name) = explode(', ', $value, 2);
-
-				return HTML::link('admin/categories/'.$id, $name);
-			}
+			'select' => "(:table).name",
 		),
 		'img_url' => array(
 
