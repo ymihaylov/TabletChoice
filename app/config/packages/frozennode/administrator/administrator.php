@@ -54,6 +54,8 @@ return array(
 	'menu' => array(
 		'Settings' => array('settings.site'),
 		'users',
+		'categories',
+		'items',
 	),
 
 	/**
