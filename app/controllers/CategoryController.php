@@ -45,7 +45,7 @@ class CategoryController extends \BaseController {
 	 */
 	public function show($id)
 	{
-		return Item::where('category_id', '=', $id)->get(array('id', 'name', 'img_url', 'short_description', 'price'));
+		return Item::where('category_id', '=', $id)->get(array('id', 'name', 'img_url', 'short_description', 'price', 'quantity'));
 	}
 
 
