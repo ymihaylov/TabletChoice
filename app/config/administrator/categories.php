@@ -6,45 +6,38 @@ return array(
 	'title' => 'Categories',
 	'single' => 'Category',
 	'model' => 'Category',
+	'form_width' => 600,
 	/**
 	 * The display columns
 	 */
 	'columns' => array(
-		'username',
-		'email',
-		'firstname' => array(
-			'title' => 'First name',
+		'name',
+		'description',
+		'created_at' => array(
+			'title' => 'created at',
 		),
-		'lastname' => array(
-			'title' => 'Last name',
+		'updated_at' => array(
+			'title' => 'updated at',
 		),
 	),
 	/**
 	 * The filter set
 	 */
 	'filters' => array(
-		'username',
-		'email',
-		'firstname' => array(
-			'title' => 'First name',
-		),
-		'lastname' => array(
-			'title' => 'Last name',
+		'name',
+		'description',
+		'created_at' => array(
+		    'type' => 'date',
+		    'title' => 'created at',
 		),
 	),
 	/**
 	 * The editable fields
 	 */
 	'edit_fields' => array(
-		'username',
-		'email' => array(
-			'type' => 'text',
-		),
-		'firstname' => array(
-			'title' => 'First name',
-		),
-		'lastname' => array(
-			'title' => 'Last name',
+		'name',
+		'description' => array(
+			'type' => 'wysiwyg',
 		),
 	),
 );
