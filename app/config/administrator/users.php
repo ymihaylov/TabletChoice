@@ -10,41 +10,32 @@ return array(
 	 * The display columns
 	 */
 	'columns' => array(
-		'username',
 		'email',
-		'firstname' => array(
-			'title' => 'First name',
-		),
-		'lastname' => array(
-			'title' => 'Last name',
-		),
+		'name',
+		'created_at',
+		'updated_at',
 	),
 	/**
 	 * The filter set
 	 */
 	'filters' => array(
-		'username',
 		'email',
-		'firstname' => array(
-			'title' => 'First name',
-		),
-		'lastname' => array(
-			'title' => 'Last name',
+		'name',
+		'created_at' => array(
+			'title' => 'created at',
+			'type' => 'date',
 		),
 	),
 	/**
 	 * The editable fields
 	 */
 	'edit_fields' => array(
-		'username',
 		'email' => array(
 			'type' => 'text',
 		),
-		'firstname' => array(
-			'title' => 'First name',
-		),
-		'lastname' => array(
-			'title' => 'Last name',
-		),
+		'name',
+		'password' => array(
+			'type' => 'password',
+		)
 	),
 );
