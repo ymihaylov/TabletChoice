@@ -12,10 +12,16 @@ class AddPasswordAndRememberTokenToUsersTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::table('users', function(Blueprint $table)
+		Schema::create('users', function(Blueprint $table)
 		{
+			$table->increments()
+
+			$table->string('email');
+			$table->string('name');
 			$table->string('password')->after('name');
 			$table->string('remember_token')->after('password');
+
+			$table->timestamps();
 		});
 	}
 
@@ -27,11 +33,7 @@ class AddPasswordAndRememberTokenToUsersTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::table('users', function(Blueprint $table)
-		{
-			$table->dropColumn('password');
-			$table->dropColumn('remember_token');
-		});
+		Schema::drop('comments');
 	}
 
 }
