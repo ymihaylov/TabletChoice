@@ -123,6 +123,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Bulforce\ExtDirect\ExtDirectServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
+		'Frozennode\Administrator\AdministratorServiceProvider',
 
 	),
 
