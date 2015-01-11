@@ -22,6 +22,8 @@ Route::get('logout', 'SessionsController@destroy');
 
 Route::resource('sessions', 'SessionsController');
 
+Route::resource('users', 'UsersController');
+
 Route::any('/rpc', function() {
     \Bulforce\ExtDirect\ExtDirect::$url = $_SERVER['REQUEST_URI'] . 'rpc?javascript'; //fixes a bug
     return ExtDirect::provide();

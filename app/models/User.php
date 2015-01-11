@@ -26,7 +26,6 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	 */
 	protected $table = 'users';
 
-	// public $timestamps = false;
 
 	/**
 	 * The attributes excluded from the model's JSON form.
@@ -37,7 +36,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 
 	public function isValid()
 	{
-		$validation = Validator::make($this->attributes, self::rules);
+		$validation = Validator::make($this->attributes, self::$rules);
 
 		if ($validation->passes()) return true;
 
@@ -46,4 +45,9 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 		return false;
 	}
 
+	public function setPasswordAttribute($password) {
+
+		$this->attributes['password'] = Hash::make($password);
+
+	}
 }
