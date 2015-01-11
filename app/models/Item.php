@@ -17,4 +17,9 @@ class Item extends \Eloquent {
     {
         return $this->hasMany('Item');
     }
+
+    public function getPriceAttribute($price)
+    {
+        return number_format($price, 2);
+    }
 }
