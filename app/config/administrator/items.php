@@ -80,11 +80,11 @@ return array(
 		        array(500, 500, 'fit', public_path() . '/upload/items/thumbs/full/', 100)
 			),
 		),
-		'category_id' => array(
-		    'type' => 'enum',
-		    'title' => 'Category',
-		    'options' => array('4' => 'Pesho', 'Gosho', 'Tosho'),
-		),
+		// 'category_id' => array(
+		//     'type' => 'enum',
+		//     'title' => 'Category',
+		//     'options' => array('4' => 'Pesho', 'Gosho', 'Tosho'),
+		// ),
 		'short_description' => array(
 			'type' => 'textarea',
 			'title' => 'Short description',
