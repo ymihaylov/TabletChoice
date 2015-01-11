@@ -7,7 +7,8 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 		"bulforce/ext-direct": "dev-master",
-		"fzaninotto/faker": "v1.3.0"
+		"fzaninotto/faker": "v1.3.0",
+		"frozennode/administrator": "dev-master"
 	},
 	"require-dev": {
     	"way/generators": "~2.0"
